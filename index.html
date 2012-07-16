@@ -1,74 +1,89 @@
-<!DOCTYPE html>
-<html>
+--- 
+layout: default 
+title: Home
+description: Mobello is high performance javascript UI framework for HTML5 mobile apps.
+keywords: Mobello, mobello, ¸ðº§·Î, HTML5, javascript, CSS3, mobile, UI Framework
+---
+<section style="padding-top: 40px;">
+	<h2 class="home-feature-title1" >
+		Native-like HTML5 apps for smartphones and tablets.
+	</h2>
+	<div class="home-feature-title2" >
+		Mobello is scalable and robust framework suited for fast and rich user interface.<br>
+		Mobello is provided under the LGPL license and is available on GitHub for forking and contribution.
+	</div>
+	<div class="row">
+		<div class="span6 feature-item">
+			<img class="feature-icon"  src="/img/home-8.png" alt="" />
+			<h3>Easy-to-use</h3>
+			<p>Mobello is a framework that aims to ease development of mobile web apps.</p>
+		</div>
+		<div class="span6 feature-item">
+			<img class="feature-icon"  src="/img/home-6.png" alt="" />
+			<h3>Native-like UI</h3>
+			<p>Mobello gives you a native experience on the web.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span6 feature-item">
+			<img class="feature-icon"  src="/img/home-5.png" alt="" />
+			<h3>Clean architecture</h3>
+			<p>With MVC architecture and clean component model, you can keep your code sensible and organized.</p>
+		</div>
+		<div class="span6 feature-item">
+			<img class="feature-icon"  src="/img/home-7.png" alt="" />
+			<h3>Integrated Development Environment</h3>
+			<p>You can use Mobello Studio to develop, design and test HTML5 web apps, which give you ultimate productivity.</p>
+		</div>
+	</div>
+</section>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Page1 : page1" />
+<div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id))
+			return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Page1</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nice-min/page1">View on GitHub</a>
-
-          <h1 id="project_title">Page1</h1>
-          <h2 id="project_tagline">page1</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/nice-min/page1/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/nice-min/page1/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and weâ€™ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Page1 maintained by <a href="https://github.com/nice-min">nice-min</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+<ul class="quick-links" style="margin-top: 30px">
+	<li><iframe
+			src="http://markdotto.github.com/github-buttons/github-btn.html?user=mobello&repo=mobello&type=watch&count=true"
+			allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px">
+		</iframe></li>
+	<li><iframe
+			src="http://markdotto.github.com/github-buttons/github-btn.html?user=mobello&repo=mobello&type=fork&count=true"
+			allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px">
+		</iframe></li>
+	<li><a href="https://twitter.com/share" class="twitter-share-button"
+		data-url="http://mobello.github.com" data-via="mobello_js">Tweet</a> <script>
+			!function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script></li>
+	<li style="margin-right:29px"><a href="https://twitter.com/mobello_js" class="twitter-follow-button"
+		data-show-count="false">Follow @mobello_js</a> <script>
+			!function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script></li>
+	<li><div  class="fb-like" data-href="http://mobello.github.com" data-send="false"
+			data-layout="button_count" data-width="30" data-show-faces="true"></div></li>
+</ul>
