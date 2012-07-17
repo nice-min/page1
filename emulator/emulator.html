@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <link type="text/css" rel="stylesheet" href="emulator.css" />
+    <script type="text/javascript"  src="tau.lang.js"></script>
+    <script type="text/javascript" src="emulator.js"></script>
+    <script type="text/javascript">
+    	if(navigator.userAgent.indexOf("MSIE") != -1) {
+    		alert("This emulator doesn't support Internet Explorer. Please use Chrome or Safari or other webkit based browser.");
+    	} else if(navigator.userAgent.indexOf("Firefox") != -1) {
+    		alert("This emulator doesn't support Firefox. Please use Chrome or Safari or other webkit based browser.");
+    	}
+    </script>
+  </head>
+
+  <body onload='util.createEmulator();'>
+    <center>
+      <div id="JudeEmul">
+          <img id="phoneFigure" class="phoneFigure" src="img/iphone.png" />
+          <div id="iframeDIV" class="iframeDIV">
+            <iframe id="browser" scrolling="no" frameborder="0"></iframe>
+            <!--   iframe id="browser" scrolling="no" frameborder="0" onload="util.initIFrame();"></iframe -->
+          </div>
+          <a class = "homeButton" id ="homeButton" onclick="util.closeEmulator();"></a>
+      </div>
+    </center>
+  </body>
+</html>
