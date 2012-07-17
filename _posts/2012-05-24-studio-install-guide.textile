@@ -1,0 +1,32 @@
+--- 
+layout: default 
+title: Mobello Studio
+description: This tutorial will help you to install Mobello Studio. 
+keywords: Mobello, mobello, 모벨로, HTML5, javascript, CSS3, mobile, UI Framework, tutorial, Tutorial, 튜토리얼, 강의
+---
+
+p(well). You don't need to install Mobello Framework separately because Mobello Studio includes it.
+
+p(well). Mobello Studio requires JRE 1.6 or higher. "JRE Install Guide":/jre-install-guide will help you to install jre.
+
+h4.  Request Mobello Studio download linke
+
+# Open "Mobello Studio Download Page":http://mobello.github.com/studio-download/ in your browser.
+# Enter your email address and agree to the EULA.
+# Click "Request".
+
+
+h4. Mobello Studio Downloads
+
+# Download links will be sent to your email.
+# Download Mobello Studio for your system.
+
+ 
+h4. Running Mobello Studio 
+
+# Extract the downloaded zip file.
+# Execute studio.exe file.
+# Setting a the workspace location for projects.
+!/img/studio/studio_install_01.png!
+# If installation is successful, *Design perspective* will be activated.
+!/img/studio/studio_install_02.png!
