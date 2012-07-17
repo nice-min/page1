@@ -28,7 +28,7 @@ h1. Tutorials
 
 h1. Component Guides
 
-* "Component essentail guide [korean]":/doc/Button-guide
+* "Component essentail guide [korean]":/page1/doc/Button-guide
 
 
 <hr>
