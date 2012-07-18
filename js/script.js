@@ -1,11 +1,11 @@
 function request_download() {
-	var test;
+	var test;  
 	var url = "http://www.econovation.co.kr/Mobello/web/_res/_server/mobello_download.asp";
 	var pattern = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 	var email = $('#email')[0].value;
 	
 	if (pattern.test(email) != true) {
-		alert("Enter valid email address.");
+		alert("Enter valid email address.      22");
 		return;
 	}
 	if ($('#eula')[0].checked != true) {
