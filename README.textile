@@ -11,8 +11,3 @@ h1. Readme
 * 컨텐트 페이지는 _post 에 작성하고 template 은 _layout/default.html 로 작성합니다.1111
 * 레이아웃이 복잡한 경우는 html 로 작성하고 간단한 문서는 textfile 형식을 사용합니다. 112
 * textile 사용법은 http://blog.wystan.net/tag/textile/ 와 http://redcloth.org/hobix.com/textile/ 를 참조하세요. 
-* -------------- 
->>>>>>> refs/remotes/origin/gh-pages
-* 레이아웃이 복잡한 경우는 html 로 작성하고 간단한 문서는 textfile 형식을 사용합니다. 112
-* textile 사용법은 http://blog.wystan.net/tag/textile/ 와 http://redcloth.org/hobix.com/textile/ 를 참조하세요. 
-* -------------- 
